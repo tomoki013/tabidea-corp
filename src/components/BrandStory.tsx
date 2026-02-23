@@ -3,18 +3,37 @@ export default function BrandStory() {
     <section className="py-24 px-6 md:px-12 bg-white text-slate-700" id="story">
       <div className="max-w-6xl mx-auto">
         
-        <div className="text-center mb-20 max-w-3xl mx-auto">
-          <span className="block text-sm font-bold text-orange-500 uppercase tracking-widest mb-4">Brand Story</span>
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight text-slate-800">
-            サービス名「Tabidea」に込めた<br className="hidden md:block" />
-            3つのピース
-          </h2>
-          <p className="text-lg leading-relaxed text-slate-600">
-            言葉にならない衝動や、ふと湧き上がる違和感。<br className="hidden md:block" />
-            そのすべてが、次の旅のはじまりの合図です。<br className="hidden md:block" />
-            Tabideaは、「Tabi」「Idea」「Deai」を重ね合わせ、<br className="hidden md:block" />
-            あなたの深層にある想いを旅へと昇華させます。
-          </p>
+        <div className="mb-20 max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="block text-sm font-bold text-orange-500 uppercase tracking-widest mb-4">Our Mission</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight text-slate-800">
+              私たちのミッション
+            </h2>
+          </div>
+
+          <div className="space-y-6 text-slate-600 leading-relaxed text-lg">
+             <div className="p-6 bg-slate-50 rounded-2xl border-l-4 border-orange-500 italic text-slate-600 mb-8">
+               <p>
+                 「言葉にならない衝動や、ふと湧き上がる違和感。そのすべてが、次の旅のはじまりの合図です。」
+               </p>
+             </div>
+             <p>
+               「どこか遠くへ行きたい」「日常を変えたい」。
+             </p>
+             <p>
+               そんな曖昧な願いの裏側には、まだ自分でも気づいていない「本当の望み」が眠っています。
+             </p>
+             <p>
+               Tabideaは、その深層にある想いを丁寧に汲み取り、旅という体験を通してそっと叶えていきます。
+             </p>
+          </div>
+        </div>
+
+        <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">
+                サービス名「Tabidea」に込めた3つのピース
+            </h2>
+            <p className="text-slate-500 font-bold">Tabidea = Tabi × Idea × Deai</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
@@ -32,7 +51,7 @@ export default function BrandStory() {
             <span className="block text-sm font-semibold text-rose-400 mb-4">アイデア</span>
             <p className="text-slate-600 leading-relaxed">
               あなた自身さえまだ言語化できていない「旅の種」を、対話を通して見つけ出します。
-              直感を理解し、最適なプランへ導きます。
+              AIが一方的に答えを出すのではなく、あなたの深層心理にある「本当はこんな景色が見たかった」「こんな感情を味わいたかった」という直感を理解し、最適なプランへ昇華させます。
             </p>
           </div>
 
@@ -40,10 +59,16 @@ export default function BrandStory() {
             <h3 className="text-2xl font-bold text-amber-600 mb-1">Deai</h3>
             <span className="block text-sm font-semibold text-amber-400 mb-4">出会い</span>
             <p className="text-slate-600 leading-relaxed">
-              目的地へ向かう途中でふと目に留まる景色、偶然居合わせた人との会話。
-              そんな「セレンディピティ」までデザインします。
+              緻密にデザインされたプランの上に生まれる、鮮やかな「偶然」。
+              目的地へ向かう途中でふと目に留まる景色、偶然居合わせた人との会話。それらは一見バラバラな出来事に見えて、実はあなたの心の深層と共鳴して引き寄せられた、かけがえのないセレンディピティ（幸せな偶然）です。
             </p>
           </div>
+        </div>
+
+        <div className="text-center max-w-3xl mx-auto mb-20 p-6 bg-orange-50 rounded-2xl">
+          <p className="text-orange-600 font-bold">
+            旅そのものだけではなく、その途中に散りばめられた「出会い」まで含めてデザインすることが、Tabideaの価値です。
+          </p>
         </div>
 
         <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-10 md:p-16 text-center text-white relative overflow-hidden">

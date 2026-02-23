@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-3xl font-bold text-slate-800 mb-8">個人情報保護方針</h2>
           
           <p className="text-slate-600 mb-6">
-            株式会社Tabidea（以下「当社」といいます。）は、お客様の個人情報保護の重要性を強く認識し、
+            Tabidea（以下「当社」といいます。）は、お客様の個人情報保護の重要性を強く認識し、
             以下の通りプライバシーポリシーを定めます。
           </p>
 
@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
               ご意見、ご質問、苦情のお申出その他利用者情報の取扱いに関するお問い合わせは、
               以下のメールアドレスまでお願いいたします。<br />
               <br />
-              contact@tabide.ai
+              gaomuyouxi81@gmail.com
             </p>
           </section>
           

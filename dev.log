@@ -1,0 +1,17 @@
+
+> entropic-meteorite@0.1.0 dev /app
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 1029ms
+ GET / 200 in 4.2s (compile: 3.4s, render: 863ms)
+ GET /company 200 in 1615ms (compile: 1257ms, render: 358ms)
+ GET /contact 200 in 782ms (compile: 663ms, render: 119ms)
+ GET /privacy-policy 200 in 564ms (compile: 428ms, render: 136ms)
+ GET /images/nature.png 404 in 444ms (compile: 359ms, render: 85ms)
+ GET / 200 in 111ms (compile: 4ms, render: 108ms)
+ GET /news/tabidea-prerelease 200 in 1163ms

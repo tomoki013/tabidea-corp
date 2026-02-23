@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PageHeader from '@/components/PageHeader';
@@ -33,11 +32,11 @@ export default function Company() {
                    </tr>
                    <tr className="bg-slate-50/50">
                      <th className="py-5 px-6 font-bold">運営責任者</th>
-                     <td className="py-5 px-6">Tomokichi</td>
+                     <td className="py-5 px-6">Tabidea</td>
                    </tr>
                    <tr className="bg-slate-50/50">
                      <th className="py-5 px-6 font-bold">お問い合わせ先</th>
-                     <td className="py-5 px-6">gaomuyouxi81[a]gmail.com※[a]を@に変更して送信してください</td>
+                     <td className="py-5 px-6">gaomuyouxi81@gmail.com</td>
                    </tr>
                  </tbody>
                </table>
@@ -70,7 +69,7 @@ export default function Company() {
                 </p>
                 <p className="font-bold text-slate-800 text-right">
                   Operation Manager<br />
-                  <span className="text-xl">Tomokichi</span>
+                  <span className="text-xl">Tabidea</span>
                 </p>
               </div>
             </div>
