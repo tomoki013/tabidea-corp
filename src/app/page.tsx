@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {latestNews.map((news) => (
-              <a key={news.id} href={news.url} className="group block hover:bg-slate-50 p-6 rounded-2xl transition-colors border border-transparent hover:border-slate-100">
+              <Link key={news.id} href={`/news/${news.slug}`} className="group block hover:bg-slate-50 p-6 rounded-2xl transition-colors border border-transparent hover:border-slate-100">
                 <span className="inline-block px-3 py-1 bg-slate-100 text-slate-500 text-xs font-bold rounded-full mb-4 group-hover:bg-orange-100 group-hover:text-orange-600 transition-colors">
                   {news.category}
                 </span>
@@ -37,7 +37,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-slate-800 leading-snug group-hover:text-orange-600 transition-colors">
                   {news.title}
                 </h3>
-              </a>
+              </Link>
             ))}
           </div>
           

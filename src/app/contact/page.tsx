@@ -36,7 +36,7 @@ export default function Contact() {
               href="mailto:gaomuyouxi81@gmail.com" 
               className="text-xl md:text-2xl font-medium text-slate-800 hover:text-orange-600 transition-colors border-b-2 border-slate-200 hover:border-orange-600 pb-1"
             >
-              [EMAIL_ADDRESS]
+              gaomuyouxi81@gmail.com
             </a>
             <p className="text-sm text-slate-400 pt-4">
               It may take some time to reply because it is a personal development project.

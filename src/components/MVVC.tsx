@@ -99,6 +99,64 @@ export default function MVVC() {
         </div>
       </div>
 
+      {/* Future Vision */}
+      <div className="py-24 px-6 md:px-12 bg-white" id="future">
+        <div className="max-w-3xl mx-auto text-center space-y-6">
+          <h2 className="text-3xl font-serif font-bold text-slate-800">
+            未来へのビジョン
+          </h2>
+          <p className="text-lg text-slate-700 leading-relaxed">
+            旅の主役は、いつでも「あなた」というひとりの人間です。
+            <br />
+            Tabideaは、あなたの心の機微を誰よりも深く理解するパートナーとして、
+            効率や便利さだけでなく、人生をそっと彩る「偶然」と「出会い」をこれからも共に描き続けます。
+          </p>
+          <div className="p-6 bg-white border border-slate-200 shadow-sm rounded-xl italic text-slate-600 mt-8">
+            <p className="mb-2">「あなたの心の中に、どんな景色が眠っていますか？」</p>
+            <p>「言葉にならないその想いから、最高の旅を始めましょう。」</p>
+            <div className="mt-4 text-right text-sm font-bold text-orange-500">
+              Tabidea 運営チーム一同
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Important Notice */}
+      <div className="py-24 px-6 md:px-12 bg-orange-50" id="notice">
+        <div className="max-w-3xl mx-auto bg-white rounded-3xl p-8 md:p-12 border-2 border-orange-200 border-dashed">
+          <h2 className="text-2xl font-serif font-bold text-orange-800 mb-4">
+            ⚠️ ご利用の際の注意
+          </h2>
+          <div className="space-y-3 text-orange-900 leading-relaxed">
+            <p>
+              Tabideaの提案は、AIによる「アイデアのたたき台」です。
+              実際の旅行では、以下の点にご注意ください：
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                施設の営業時間、料金、交通機関の最新情報は必ず公式サイトで確認してください
+              </li>
+              <li>
+                AIは時に誤った情報を生成することがあります（ハルシネーション）
+              </li>
+              <li>
+                提案内容はあくまで参考とし、最終的な判断はご自身で行ってください
+              </li>
+            </ul>
+            <p className="text-sm mt-4">
+              詳細は{" "}
+              <a
+                href="/ai-policy"
+                className="underline font-bold hover:text-orange-700"
+              >
+                AIポリシー
+              </a>{" "}
+              をご確認ください。
+            </p>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 }

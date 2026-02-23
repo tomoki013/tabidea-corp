@@ -11,13 +11,13 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto animate-fade-in-up pt-20">
-        <span className="block text-lg font-bold tracking-[0.2em] text-slate-800 uppercase mb-6 drop-shadow-sm">Tabidea Corporate</span>
+        <span className="block text-lg font-bold tracking-[0.2em] text-slate-800 uppercase mb-6 drop-shadow-sm">Tabidea</span>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-8 text-slate-900 drop-shadow-sm">
           心の奥にある『行きたい』を、<br />
           一生モノの体験へ。
         </h1>
         <p className="text-lg md:text-xl leading-relaxed text-slate-800 font-medium mb-12 max-w-2xl mx-auto drop-shadow-sm">
-          Tabideaは、あなたの「なんとなくどこかへ行きたい」という想いの奥にある、
+          Tabidea（タビデア）は、あなたの「なんとなくどこかへ行きたい」という想いの奥にある、
           本当の願いをそっとすくい上げ、かたちにしていくトラベルパートナーです。
         </p>
       </div>
