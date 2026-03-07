@@ -69,7 +69,7 @@ export default function Company() {
                 </p>
                 <p className="font-bold text-slate-800 text-right">
                   Operation Manager<br />
-                  <span className="text-xl">Tabidea</span>
+                  <span className="text-xl">Tomoki Takagi</span>
                 </p>
               </div>
             </div>
